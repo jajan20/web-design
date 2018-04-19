@@ -1,0 +1,16 @@
+{
+  "name": "week_02",
+  "version": "1.0.0",
+  "description": "Website for reading manga.",
+  "main": "manga.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jamie Jansen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3"
+  }
+}
