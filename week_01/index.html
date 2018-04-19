@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+	<title>Manga Finder</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	
+	<section id="start-page">
+		<h2 class="title">Manga <span>Finder</span></h2>
+		<p>Having trouble finding a new manga after you've just finished one? Feeling empty, not knowing what to do? Worry no more! Manga finder will help you find that new treasure with just three simple steps.</p>
+		<a class="button" href="#genre-page">Start</a>
+	</section>
+
+	
+	<section id="genre-page">
+
+		<a href="#start-page">Restart</a>
+		<h1>Step One</h1>
+		<h2>Genre</h2>
+		<p>Click on the genre's that you like the most. We need at least one to show you some results</p>
+		<p>The more genre's you add, the more specific the results will be.</p>
+		<ul id="genre-selection">
+			<li class="genre">action</li>
+			<li class="genre">comedy</li>
+			<li class="genre">drama</li>
+			<li class="genre">mecha</li>
+			<li class="genre">horror</li>
+			<li class="genre">fantasy</li>
+			<li class="genre">sci-fi</li>
+			<li class="genre">shounen</li>
+			<li class="genre">seinen</li>
+			<li class="genre">romance</li>
+			<li class="genre">magic</li>
+		</ul>
+		<a class="button" href="#result-page">Show results</a>
+		<!-- <a class="textBtn" href="">More options</a> -->
+	</section>
+
+	
+	<section id="result-page">
+		<h2>Results</h2>
+		<p>Below you'll find a list of the manga's filtered on the genre's you've added in the previous step.</p>
+		<!-- <input type="text" placeholder="Search.."> -->
+		<a class="button" href="#publish-page">Refine results</a>	
+		<ul id="results">
+		</ul>
+	</section>
+
+
+	<section id="publish-page">
+		<h2>Publish Date</h2>
+		<p>Are you into the classics? Or are you more into the new type of manga's?</p>
+		<!-- <input type="date"> -->
+		<span id="output"></span>
+    	<div>
+    		<span id="prev_button"><</span>
+    		<span id="next_button">></span>
+    	</div>
+		<a class="button" href="#result-page">Update</a>	
+		<!-- <input type="text" placeholder="Search.."> -->
+
+	</section>
+
+
+</body>
+<script src="js/script.js"></script>
+</html>

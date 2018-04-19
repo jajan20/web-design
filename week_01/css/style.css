@@ -1,0 +1,187 @@
+* {
+	scroll-behavior: smooth;
+}
+
+header {
+	background-color:gray;
+	width:100%;
+	position:absolute;
+	top:100%;
+}
+
+header a {
+	
+}
+
+h1 {
+	
+	align-self:top;
+	text-transform: uppercase;
+	font-size:2em;
+	margin:0;
+	padding:0;
+	font-weight:400;
+	/*line-height:.5em;*/
+}
+
+h2 span {
+	color:#3A464D;
+	text-align: center;
+}
+
+h2 {
+	text-transform:uppercase;
+	padding:0;
+	margin:0;
+	font-weight:700;
+	color:#E54B4B;
+	font-size:3em;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+section {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+  	justify-content: center;
+  	height: 100vh;
+  	
+  	overflow:hidden;
+	color:#3A464D;
+}
+
+p {
+	margin:2em 1em 0em;
+	text-align: center;
+}
+
+#output {
+	font-size:4em;
+	color:#E54B4B;
+	line-height:1em;
+	margin-top:.5em;
+}
+
+.title {
+	display:flex;
+	flex-direction:column;
+	font-size:4em;
+	margin:0;
+	padding:0;
+}
+
+.title > span {
+	font-size:.5em;
+	margin:0;
+	padding:0;
+	line-height:.4em;
+}
+
+.button {
+	color:white;
+	display:block;
+	background-color:#E54B4B;
+	padding:.5em;
+	width:10em;
+	border-radius:.2em;
+	border:none;
+	box-shadow:0px 2px 2px #ccc;
+	text-decoration: none;
+	font-size:.8em;
+	text-align: center;
+	transform: all 150ms;
+	margin-top:3em;
+}
+
+div {
+	margin-top:.5em;
+}
+
+#prev_button, #next_button {
+	margin:.5em;
+	padding:.4em;
+	color:white;
+	background-color:#3A464D;
+	cursor:pointer;
+	border-radius:.2em;
+}
+
+#results {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#results ul {
+	align-self: center;
+	margin:0;
+	padding:0;
+}
+
+#results li {
+	display:flex;
+	flex-direction:column;
+	font-size:.5em;
+}
+
+#results li span {
+	display:none;
+}
+
+#results img {
+	width:100px;
+	height:160px;
+	margin:.5em;
+}
+
+.button:hover, .button:focus {
+	background-color:#A55252;
+}
+
+.textBtn {
+/*	margin-top:3em;*/
+	color:#E54B4B;
+	text-decoration: none;
+}
+
+#genre-page > a:nth-child(1) {
+	align-self: left;
+	margin-left:1.5em;
+	text-decoration: none;
+	color:#3A464D;
+	font-size:.9em;
+	text-transform: uppercase;
+}
+
+#genre-selection {
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding:0;
+	width:100%;
+}
+
+.genre {
+	list-style-type: none;
+	background-color:white;
+	color:#E54B4B;
+	padding:.5em;
+	border-radius:1em;
+	margin:.5em;
+	border:1px solid #E54B4B;
+	cursor:pointer;
+}
+
+.selected {
+	background-color:#E54B4B;
+	color:white;
+	padding:.5em;
+	border-radius:1em;
+	margin:.5em;
+}
+
+
