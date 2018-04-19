@@ -1,6 +1,9 @@
 ## Project: web-design
 Design a user interface for a user case of you're own choosing.
 
+Low-fi preview image for this project. Will update when project progresses.
+![](https://github.com/jajan20/web-design/blob/master/week_02/preview-01.png)
+
 ## Table of contents
 - [Installation](#installation)
 - [Dependencies](#dependencies)
