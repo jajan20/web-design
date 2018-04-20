@@ -2,7 +2,22 @@
 Design a user interface for a user case of you're own choosing.
 
 Low-fi preview image for this project. Will update when project progresses.
+![](https://github.com/jajan20/web-design/blob/master/week_02/sketches.jpg)
 ![](https://github.com/jajan20/web-design/blob/master/week_02/preview-01.png)
+
+## Usercase
+#### Users
+Bob is a huge fan of manga, but for a while now he hasn’t found any that suits his taste. Now he’s looking for a website where he can get some help finding a new manga.
+
+Marijn heard about manga and wanted to know what the fuss is about. Due to his disabillity he can only navigate using a keyboard. 
+#### Reasons
+- find a (for the user) new manga to read.
+- Casually browse through the availble collection.
+- Being able to save which chapter the user last read.
+- Do specific search queries.
+- Being able to sort
+- Being able to filter
+- Leave a rating on the manga(chapter?) you’ve read.
 
 ## Table of contents
 - [Installation](#installation)
