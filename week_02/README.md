@@ -2,8 +2,17 @@
 Design a user interface for a user case of you're own choosing.
 
 Low-fi preview image for this project. Will update when project progresses.
-![](https://github.com/jajan20/web-design/blob/master/week_02/sketches.jpg)
-![](https://github.com/jajan20/web-design/blob/master/week_02/preview-01.png)
+![](https://github.com/jajan20/web-design/blob/master/week_02/redesign.png)
+
+## Table of contents
+- [User cases](#user-cases)
+- [User tests](#user-tests)
+- [Installation](#installation)
+- [Dependencies](#dependencies)
+- [Features](#features)
+- [Todo](#todo)
+- [What went wrong?](#what-went-wrong)
+- [Sources](#sources)
 
 ## User cases
 Randy has been a huge fan of manga, but recently he hasn't been able to find any good new titles. Through a friend, he heard about manga finder a website that helps you find that hidden gem of a manga.
@@ -36,13 +45,6 @@ Some of the great insights I've gathered during the tests:
 
 Marijn is a cool guy, he gave us some great insights and proved that assumptive design can really work against you. (everyone designed their interface to work primarily with the tab key).
 
-## Table of contents
-- [Installation](#installation)
-- [Dependencies](#dependencies)
-- [Features](#features)
-- [To do](#to-do)
-- [Sources](#sources)
-
 ## Installation
 This project needs node and express to run.
 - [Official Website NodeJS](https://nodejs.org/en/)
@@ -69,15 +71,15 @@ This will install all dependencies.
 - [ ] Fancy styling
 - [ ] Semantic HTML
 
-## What went wrong
+## What went wrong?
 This project made me realize that even though I've learned a lot these past couples of weeks I still have a long way to go.
 
 One of the core principles of this assignment was that we shouldn't be too safe with our design. Exaggerate, go wild and make something that is visually stunning and works for your users.
 
 The catch was that we needed to make the prototype with HTML/CSS/javascript. This in itself isn't that hard, but I kept working in loops. First I tried sketching my ideas and creating HTML prototypes with just that. It didn't work out so I tried making something in sketch, nothing hi-fi just to give myself a direction.
 
-IMAGE ![]()
-IMAGE ![]()
+![](https://github.com/jajan20/web-design/blob/master/week_02/sketches_webdev.png)
+![](https://github.com/jajan20/web-design/blob/master/week_02/preview-01.png)
 
 After I'd spend a lot of time recreating my lo-fi sketch file in HTML I was disappointed in the result and went back to sketch. This time spending to much time on the design. In my opinion, it looked really good, but it was already too late to translate it to a working HTML prototype.
 
