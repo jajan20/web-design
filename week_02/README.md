@@ -1,7 +1,7 @@
 ## Project: web-design
 Design a user interface for a user case of you're own choosing.
 
-Low-fi preview image for this project. Will update when project progresses.
+Last design made in sketch(This is what I wanted my project to look like.)
 ![](https://github.com/jajan20/web-design/blob/master/week_02/redesign.png)
 
 ## Table of contents
@@ -12,6 +12,9 @@ Low-fi preview image for this project. Will update when project progresses.
 - [Features](#features)
 - [Todo](#todo)
 - [What went wrong?](#what-went-wrong)
+  - [Design Process](#design-process)
+  - [ExpressJS and Node](#expressjs-and-node)
+  - [Conclusion](#conclusion)
 - [Sources](#sources)
 
 ## User cases
@@ -72,6 +75,7 @@ This will install all dependencies.
 - [ ] Semantic HTML
 
 ## What went wrong?
+#### Design Process
 This project made me realize that even though I've learned a lot these past couples of weeks I still have a long way to go.
 
 One of the core principles of this assignment was that we shouldn't be too safe with our design. Exaggerate, go wild and make something that is visually stunning and works for your users.
@@ -83,7 +87,10 @@ The catch was that we needed to make the prototype with HTML/CSS/javascript. Thi
 
 After I'd spend a lot of time recreating my lo-fi sketch file in HTML I was disappointed in the result and went back to sketch. This time spending to much time on the design. In my opinion, it looked really good, but it was already too late to translate it to a working HTML prototype.
 
-**Conclusion:**
+#### ExpressJS and Node
+I wanted to use real data, so I started looking for an API that could give me information and pages about manga. I found one, but the endpoints weren't that good. I could only select 1 genre per API call, a call to all manga didn't return all the information so I had to write functions that would do another request for the extra information needed. I tried to not spend a lot of time getting this to work, but I needed real data. In the end, I did spend to much time on it.
+
+#### Conclusion
 While I think that I've learned a lot of HTML/CSS/javascript. I'm not skilled enough to quickly create a visually stunning design without first spending time in sketch. Right now my static design looks way better than something I could make with HTML/CSS/javascript.
 
 ## Sources
